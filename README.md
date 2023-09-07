@@ -13,7 +13,9 @@ Instructions
 <ol>
     <li>Execute "composer install" command</li> 
     <li>Rename .env_example file into .env</li>
-    <li>Set params for database connection in .env</li>
+    <li>Set database params in .env</li>
+    <li>Set API_KEY param in .env</li>
+    <li>Set APP_DEBUG param to false in .env (not required)</li>
     <li>Execute "php artisan <b><span style="color: lime;">migrate</span></b>" command</li>
     <li>Execute "php artisan <b><span style="color: lime">tinker</span></b>" command</li>
     <li>Inside <b><span style="color: lime">tinker</span></b> write the following code "User::factory(50)->create();" and hit enter. The code will generate 50 fifty records in users table for test purpose</li>
